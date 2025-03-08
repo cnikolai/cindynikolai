@@ -8,6 +8,10 @@
     position: relative;
 }
 
+.contact-me {
+    display: block;
+}
+
 .navbar-border-first {
     border-bottom: 6px solid #cccccc;
 }
