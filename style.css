@@ -1,0 +1,121 @@
+.icon {
+    width: 175px;
+    height: 175px;
+}
+
+.resume {
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-border-first {
+    border-bottom: 6px solid #cccccc;
+}
+
+.navbar-border-second {
+    border-bottom: 15px solid #cccccc;
+}
+
+img[src="pdficon.png"]+h3 {
+    position: absolute;
+    margin: auto;
+    bottom: 25px;
+    width: 175px;
+    padding: 6px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #ffffff;
+    text-align: center;
+    background: forestgreen;
+    border-bottom: 0;
+    font-size: 24pt;
+}
+
+img[src="/images/mynewcomputer.avif"] {
+    width: 100%; /* image box size as % of container, see step 1 */
+    height: 100%; /* image box size as % of container, see step 1 */
+}
+
+.screenshot-large {
+    height: 200px;
+    width: 240px;
+    margin: auto;
+}
+
+.navbar {
+    background: #2C3E50;
+    .navbar-nav li a {
+        color: #eee;
+        &:focus, &:active {
+            color: #000000;
+            background-color: transparent;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+    }
+}
+
+.footnote {
+    font-size: 11pt;
+}
+
+.puzzle-pic {
+    width: 475px;
+    height: 375px;
+    border-radius: 10%;
+}
+
+th, td {
+    border-style: hidden;
+}
+
+div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dropdown-item {
+    color: black;
+}
+
+.project-header {
+    background: #4287f5;
+    color: white;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #4287f5;
+}
+
+.rounded-top-left-1 {
+    border-top-left-radius: 1rem;
+}
+.rounded-top-right-1 {
+    border-top-right-radius: 1rem;
+}
+.rounded-bottom-left-1 {
+    border-bottom-left-radius: 1rem;
+}
+.rounded-bottom-right-1 {
+    border-bottom-right-radius: 1rem;
+}
+
+.screenshot {
+    margin: auto;
+    width: 135px;
+    height: 250px;
+    border: 1px solid lightgray;
+}
+
+.card {
+    border-radius: 15px;
+    width: 18rem;
+}
+
+.card-body {
+    border-radius: 0 0 15px 15px;
+    color: #ffffff;
+    background: #80a4dd;
+}

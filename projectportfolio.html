@@ -3,8 +3,459 @@
 <head>
     <meta charset="UTF-8">
     <title>Project Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
 </head>
 <body>
+<nav class="navbar-border-second navbar navbar-expand-lg p-3">
+    <div class="container-fluid">
+        <!--        <a class="navbar-brand" href="index.html">Home</a>-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbars mx-3" id="navbarNavDropdown">
+            <ul class="navbar-nav align-items-center">
+                <li class="nav-item h3 mx-2">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item h5 mx-1">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item h5 mx-1">
+                    <a class="nav-link" href="funfact.html">Fun Fact</a>
+                </li>
+                <li class="nav-item h5 mx-1">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item h5 mx-1">
+                    <a class="nav-link" href="books.html">Books</a>
+                </li>
+                <li class="nav-item h5 mx-1">
+                    <a class="nav-link" href="startupinitiatives.html">Startup Initiatives</a>
+                </li>
+                <li class="nav-item h5 mx-1">
+                    <a class="nav-link" href="teaching.html">Teaching</a>
+                </li>
+                <li class="nav-item h5 mx-1">
+                    <a class="nav-link" href="research.html">Research</a>
+                </li>
+                <li class="nav-item h5 mx-1">
+                    <a class="nav-link" href="publications.html">Publications</a>
+                </li>
+                <li class="nav-item h5 mx-1">
+                    <a class="nav-link" href="theories.html">Theories</a>
+                </li>
+                <li class="nav-item h5 mx-1">
+                    <a class="nav-link" href="worksinprogress.html">Works in Progress</a>
+                </li>
+                <li class="nav-item h5 mx-1">
+                    <a class="nav-link active" href="projectportfolio.html">Project Portfolio</a>
+                </li>
 
+                <!--                <li class="nav-item dropdown">-->
+                <!--                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
+                <!--                        Project Portfolio-->
+                <!--                    </a>-->
+                <!--                    <ul class="dropdown-menu">-->
+                <!--                        <li><a class="dropdown-item" href="#">Front End</a></li>-->
+                <!--                        <li><a class="dropdown-item" href="#">Full Stack</a></li>-->
+                <!--                        <li><a class="dropdown-item" href="#">Android</a></li>-->
+                <!--                        <li><a class="dropdown-item" href="#">iOS</a></li>-->
+                <!--                        <li><a class="dropdown-item" href="#">Highlights</a></li>-->
+                <!--                        <li><a class="dropdown-item" href="#">Animations</a></li>-->
+
+                <!--                    </ul>-->
+                <!--                </li>-->
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="projects" class="p-5">
+   <div class="h4 project-header p-3 border border-3 border-dark-subtle rounded-top-right-1 rounded-bottom-left-1">Full Stack</div>
+
+    <section id="full-stack" class="container-fluid pb-5">
+        <div class="ms-5">
+            <div class="row mt-4 me-5">
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href="https://cnikolai.github.io/Project1" target="_blank"><img
+                                class="screenshot-large" src="images/awesomedash.png"
+                                alt="AwesomeDash"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">AwesomeDash</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/Project1" class="card-link" target="_blank">AwesomeDash Repository</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href="https://github.com/cnikolai/liri-node-app-" target="_blank"><img
+                                class="screenshot-large" src="images/terminal.jpg"
+                                alt="LIRI"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">LIRI</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/liri-node-app-" class="card-link" target="_blank">LIRI Repository</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href="https://github.com/cnikolai/WordGuess-CLI" target="_blank"><img
+                                class="screenshot-large" src="images/wordguess.jpg"
+                                alt="Word Guess CLI Image"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Word Guess CLI</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/WordGuess-CLI" class="card-link" target="_blank">WordGuess CLI
+                            Repository</a></div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href="https://github.com/cnikolai/bamazon" target="_blank"><img class="screenshot-large"  src="images/bamazon.png" alt="Bamazon Image"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Bamazon</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/bamazon" class="card-link" target="_blank">Bamazon Repository</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href="https://fierce-caverns-76933.herokuapp.com/" target="_blank"><img
+                                class="screenshot-large" src="images/friends.jpg"
+                                alt="Friend Finder Image"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Friend Finder</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/FriendFinder" class="card-link" target="_blank">Friend Finder
+                            Repository</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href="https://secret-crag-23841.herokuapp.com/" target="_blank"><img
+                                class="screenshot-large" src="images/burger.jpg"
+                                alt="Eat-Da-Burger Image"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Eat-Da-Burger</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/burger" class="card-link" target="_blank">Eat-Da-Burger Repository</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="card mx-auto">
+                        <a href="https://project2-ucla2019.herokuapp.com/" target="_blank"><img
+                                class="screenshot-large" src="images/med-dash.jpg"
+                                alt="MedDash"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Med Dash</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/Project2" class="card-link" target="_blank">Med Dash Repository</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href="https://bcp-trivia-front.herokuapp.com/" target="_blank"><img class="screenshot-large" src="images/trivia-platoon.jpg"
+                                                                                               alt="Trivia Platoon"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Trivia Platoon</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/ptatro/trivia-platoon-frontend" class="card-link" target="_blank">Trivia Platoon
+                            Front End Repository</a></div>
+                        <div><a href="https://github.com/ptatro/trivia-platoon-backend" class="card-link" target="_blank">Trivia Platoon
+                            Back End Repository</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="card mx-auto">
+                        <img class="screenshot-large"
+                             src="images/redpalm.png"
+                             alt="Red Palm">
+                        <div class="card-body">
+                            <h5 class="card-text">Red Palm</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/red-palm" class="card-link" target="_blank">Red Palm
+                            Repository</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h4 project-header p-3 border border-3 border-dark-subtle rounded-top-right-1 rounded-bottom-left-1">Front End</div>
+    <section id="front-end" class="container-fluid pb-5">
+        <div class="ms-5">
+            <div class="row mt-4 me-5">
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="card mx-auto">
+                        <a href="https://cnikolai.github.io/Word-Guess-Game" target="_blank"><img class="screenshot-large" src="images/wordgame.jpg"
+                                                                                                  alt="Word Guess"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Word Guess Game</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/Word-Guess-Game" class="card-link" target="_blank">Word Guess Game
+                            Repository</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="card mx-auto">
+                        <a href="https://cnikolai.github.io/Psychic-Game/" target="_blank"><img
+                                class="screenshot-large" src="images/crystalball.jpg"
+                                alt="Psychic Game"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Psychic Game</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/Psychic-Game" class="card-link" target="_blank">Psychic Game
+                            Repository</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="card mx-auto">
+                        <a href="https://cnikolai.github.io/unit-4-game" target="_blank"><img class="screenshot-large" src="images/jewels.jpg" alt="Jewel Game"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Jewel Game</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/unit-4-game" class="card-link" target="_blank">Jewel Game Repository</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href="https://cnikolai.github.io/TriviaGame" target="_blank"><img
+                                class="screenshot-large" src="images/patriotic.jpg"
+                                alt="Trivia Game"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Trivia Game</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/TriviaGame" class="card-link" target="_blank">Trivia Game Repository</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href="https://cnikolai.github.io/Giphy" target="_blank"><img
+                                class="screenshot-large" src="images/hamster.jpg"
+                                alt="Giphy Search Engine"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Giphy Search Engine</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/Giphy" class="card-link" target="_blank">Giphy Search Engine
+                            Repository</a></div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href="https://cnikolai.github.io/TrainScheduler" target="_blank"><img class="screenshot-large"
+                                src="images/train.jpg"
+                                alt="Train Scheduler"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Train Scheduler</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/TrainScheduler" class="card-link" target="_blank">Train Scheduler
+                            Repository</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h4 project-header p-3 border border-3 border-dark-subtle rounded-top-right-1 rounded-bottom-left-1">Android</div>
+    <section id="android" class="container-fluid pb-5">
+        <div class="ms-5">
+            <div class="row mt-4 me-5">
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href=""><img class="screenshot" src="images/bad-mood.png"
+                                        alt="Mood Tracker"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Mood Tracker</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/MoodTracker" class="card-link" target="_blank">Mood Tracker</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href=""><img class="screenshot" src="images/go4lunch.png"
+                                        alt="Go4Lunch"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Go4Lunch</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/Go4Lunch" class="card-link" target="_blank">Go4Lunch Repository</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href=""><img class="screenshot" src="images/vaccination-pocketkeeper.png    "
+                                        alt="Vaccination PocketKeeper"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Vaccination PocketKeeper</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/ddc-java-14/vaccination-pocket-keeper" class="card-link" target="_blank">Vaccination
+                            PocketKeeper Repository</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href="https://interview-prep-platform.github.io/" target="_blank"><img class="screenshot"
+                                                                                                  src="images/interview-prep-screen-shot1.jpg"
+                                                                                                  alt="Interview Prep"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Interview Prep</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/interview-prep-platform/interview-prep-client" class="card-link" target="_blank">Interview
+                            Prep Client Repository</a></div>
+                        <div><a href="https://github.com/interview-prep-platform/interviewprep-server" class="card-link" target="_blank">Interview
+                            Prep Server
+                            Repository</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h4 project-header p-3 border border-3 border-dark-subtle rounded-top-right-1 rounded-bottom-left-1">iOS</div>
+    <section id="ios" class="container-fluid pb-5">
+        <div class="ms-5">
+            <div class="row mt-4 me-5">
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="card mx-auto">
+                        <img class="screenshot" src="images/color-mix.png" alt="Color Mix Image">
+                        <div class="card-body">
+                            <h5 class="card-text">Color Mix</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="card mx-auto">
+                        <img class="screenshot" src="images/deck-of-one-card.png" alt="Deck of One Card Image">
+                        <div class="card-body">
+                            <h5 class="card-text">Deck of One Card</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="card mx-auto">
+                        <img class="screenshot" src="images/pokedecks.png" alt="Pokedecks Image">
+                        <div class="card-body">
+                            <h5 class="card-text">Pokedecs</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href="https://github.com/cnikolai/gridy" target="_blank"><img class="screenshot" src="images/gridy.jpeg"
+                                                                                         alt="Gridy Puzzle Image"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Gridy Puzzle</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/gridy" class="card-link" target="_blank">Griddy Puzzle Repository</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class=" card mx-auto">
+                        <a href=""><img class="screenshot" src="images/wager-danger.jpeg"
+                                        alt="Wager Danger Image"></a>
+                        <div class="card-body">
+                            <h5 class="card-text">Wager Danger</h5>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div><a href="https://github.com/cnikolai/accounta-bill-a-buddy" class="card-link" target="_blank">Wager Danger
+                            Repository</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h4 project-header p-3 border border-3 border-dark-subtle rounded-top-right-1 rounded-bottom-left-1">Highlights</div>
+    <section id="highlights" class="container-fluid pb-5">
+        <div class="ms-5">
+            <div class="row mt-4 me-5">
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="card mx-auto">
+                        <video class="mx-auto" width="260" height="260" controls>
+                            <source src="images/java-anagrams-program.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="card-body">
+                            <h5 class="card-text">Java Word Anagrams</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h4 project-header p-3 border border-3 border-dark-subtle rounded-top-right-1 rounded-bottom-left-1">Animations</div>
+    <section id="animations" class="container-fluid pb-5">
+        <div class="ms-5">
+            <div class="row mt-4 me-5">
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="card mx-auto">
+                        <video class="mx-auto" width="260" height="260" controls>
+                            <source src="images/vampire-bites.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="card-body">
+                            <h5 class="card-text">Vampire Bites</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
